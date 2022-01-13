@@ -1,0 +1,385 @@
+body
+{
+	background-color:white;
+	color:black;
+	margin-top:5px;
+	padding:0px;
+}
+
+#game
+{
+	background-image:URL("background.jpg");
+	background-color:black;
+	color:white;
+	font-family:"Lucida Console";
+	position: relative;
+	left: 50%;
+	width:1024px;
+	height:720px;
+	text-align:center;
+	overflow:auto;
+}
+
+#center
+{
+	float: right;
+	position: relative;
+	left: -50%; /* or right 50% */
+	text-align: left;
+}
+
+#stopa
+{
+	width:100%;
+	font-size:8;
+	background-color:black;
+	bottom:0;
+	position:absolute;
+}
+
+input[type=button] 
+{
+	margin:10px;
+	margin-right:0px;
+	margin-left:20px;
+	font-family:"FreeMono", monospace;
+	color:white;
+    padding:5px 15px; 
+    background:black; 
+    border:2px static #FFF;
+    cursor:pointer;
+    border-radius: 5px; 
+}
+
+input[type=submit] 
+{
+	margin:10px;
+	margin-right:0px;
+	margin-left:20px;
+	font-family:"FreeMono", monospace;
+	color:white;
+    padding:5px 15px; 
+    background:black; 
+    border:2px static #FFF;
+    cursor:pointer;
+    border-radius: 5px; 
+}
+
+#start
+{
+	margin:30px;
+}
+
+#menu
+{
+	margin-top:10%;
+
+}
+
+#tytul
+{
+	padding-top:15%;
+	font-size: 60;
+}
+
+#but
+{
+	float:left;
+	position:relative;
+}
+
+#down_button_panel
+{
+	background-color:222222;
+	width:100%;
+	bottom:8;
+	position:absolute;
+}
+
+#avatar
+{
+	width:128px;
+	height:128px;
+	background-color:red;
+	border-radius:20px;
+	margin:20px;
+	float:left;
+	position:relative;
+	background-size: contain;
+	background-image:URL("avatar.jpg");
+}
+
+#info
+{
+	font-family:"Luminari",fantasy;
+	width:560px;
+	height:128px;
+	background-color:000000;
+	border-radius:20px;
+	margin:20px;
+	margin-left:0px;
+	float:left;
+	position:relative;
+}
+
+#moves
+{
+	width:25%;
+	height:478px;
+	float:left;
+	position:relative;
+	border-radius:20px;
+	background-color:black;
+	margin-left:20px;
+}
+
+#stats
+{
+	font-family:"Luminari",fantasy;
+	width:256px;
+	height:128px;
+	background-color:000000;
+	border-radius:20px;
+	margin:20px;
+	margin-left:0px;
+	float:left;
+	position:relative;
+}
+
+#action_window
+{
+	width:69%;
+	height:478px;
+	float:left;
+	position:relative;
+	border-radius:20px;
+	background-color:black;
+	margin-left:20px;
+}
+
+#buut
+{
+	margin-top:20px;
+	margin-right:0px;
+	margin-left:20px;
+	margin-bottom:0px;
+	font-family:"FreeMono", monospace;
+	color:red;
+    padding:5px 15px; 
+    background:black; 
+    border:2px static #FFF;
+    cursor:pointer;
+    border-radius: 5px; 
+	width:218px;
+	height:56px;
+	font-size:20;
+}
+
+#menu_buttons
+{
+	font-family:"FreeMono", monospace;
+	color:white;
+    padding:5px 15px; 
+    background:black; 
+    border:2px static #FFF;
+    cursor:pointer;
+    border-radius: 5px; 
+	width:160px;
+	height:40px;
+	font-size:20;
+}
+
+.stat1
+{
+	margin-top:10px;
+	margin-left:10px;
+	text-align:left;
+	width:100%;
+	position:relative;
+	float:left;
+}
+
+.stat2
+{
+	margin-top:3px;
+	margin-left:10px;
+	text-align:left;
+	width:100%;
+	position:relative;
+	float:left;
+}
+
+.stat3
+{
+	margin-top:10px;
+	margin-left:10px;
+	text-align:left;
+	width:17%;
+	position:relative;
+	float:left;
+}
+
+.sight
+{
+	width:100%;
+	height:100%;
+	background-color:red;
+	border-radius:20px;
+}
+
+.avatar
+{
+	width:128px;
+	height:128px;
+	background-color:red;
+	border-radius:20px;
+	margin:20px;
+	float:right;
+	position:relative;
+}
+
+.text_container
+{
+	bottom:0;
+	width:100%;
+	height:31%;
+	position:absolute;
+	background-color:#111;
+	border-radius:5px;
+	border:2px solid #444;
+	box-sizing: border-box;
+}
+
+.action_text
+{
+	text-align:left;
+	color:yellow;
+	margin:10px;
+}
+
+.eq_slot
+{
+	margin-top:15px;
+	margin-left:15px;
+	width:104px;
+	height:48px;
+	border:2px solid #FFF;
+	border-radius:5px;
+	float:left;
+	position:relative;
+	font-family:"FreeMono", monospace;
+}
+
+.half_info
+{
+	width:50%;
+	position:relative;
+	float:left;
+}
+
+/* Popup box BEGIN */
+.hover_bkgr_fricc{
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+	left:-2%;
+}
+.hover_bkgr_fricc .helper
+{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc > div 
+{
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 100px;
+    min-height: 150px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 5%;
+}
+.popupCloseButton 
+{
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.popupCloseButton:hover 
+{
+    background-color: #ccc;
+}
+
+.t_color
+{
+ color:blue;	
+}
+
+.mana_precentage
+{
+	margin-top:20px;
+	margin-right:0px;
+	margin-left:20px;
+	margin-bottom:0px;
+	font-family:"FreeMono", monospace;
+	color:red;
+    padding:5px 15px; 
+    background:black; 
+    border:2px static #FFF;
+    cursor:pointer;
+    border-radius: 5px; 
+	width:218px;
+	height:56px;
+	font-size:20;
+	text-align:center;
+}
+
+#but:hover .textt
+{
+	visibility: visible;
+	opacity:1;
+}
+
+.textt {
+  position: absolute;
+  top: -75;
+  bottom: 60;
+  left: 25;
+  right: 2;
+  visibility: hidden;
+  opacity: 0;
+  color:#00ffff;
+  font-size:20;
+  text-align:left;
+  font-family:"FreeMono", monospace;
+  background:black;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+
+/* Popup box BEGIN */

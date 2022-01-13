@@ -1,0 +1,10 @@
+C:\Users\LiSimon\source\repos\Jumper\Jumper\bin\Debug\Jumper.exe.config
+C:\Users\LiSimon\source\repos\Jumper\Jumper\bin\Debug\Jumper.exe
+C:\Users\LiSimon\source\repos\Jumper\Jumper\bin\Debug\Jumper.pdb
+C:\Users\LiSimon\source\repos\Jumper\Jumper\obj\Debug\Jumper.csprojAssemblyReference.cache
+C:\Users\LiSimon\source\repos\Jumper\Jumper\obj\Debug\Jumper.Form1.resources
+C:\Users\LiSimon\source\repos\Jumper\Jumper\obj\Debug\Jumper.Properties.Resources.resources
+C:\Users\LiSimon\source\repos\Jumper\Jumper\obj\Debug\Jumper.csproj.GenerateResource.cache
+C:\Users\LiSimon\source\repos\Jumper\Jumper\obj\Debug\Jumper.csproj.CoreCompileInputs.cache
+C:\Users\LiSimon\source\repos\Jumper\Jumper\obj\Debug\Jumper.exe
+C:\Users\LiSimon\source\repos\Jumper\Jumper\obj\Debug\Jumper.pdb

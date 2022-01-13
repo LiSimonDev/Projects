@@ -1,0 +1,46 @@
+QHBoxLayout {
+    border: 20px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+	align-self: center;
+}
+
+QLineEdit {
+    color: red;
+    text-align: center;
+    font-size: 12px;
+}
+
+QLabel {
+    color: red;
+    text-align: center;
+    font-size: 12px;
+}
+
+QPushButton {
+    font-size: 12px;
+}
+
+QRadioButton {
+    font-size: 12px;
+}
+
+QCheckBox {
+    font-size: 12px;
+}
+
+QMenuBar {
+background-color: white;
+border: 1px solid black;
+
+}
+
+QMenu {
+background-color: white;
+border: 1px solid black;
+color: black;
+}
+
+QMenu:hover {
+background-color: black;
+}

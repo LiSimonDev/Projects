@@ -1,0 +1,91 @@
+<html>
+
+	<head>
+		<title>Elatrednu</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styles.css">
+		<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+	</head>
+	
+	<body>
+		<div id="center">
+		<div id="game">
+
+			<div id="avatar"></div>
+			
+			<div id="stats"> 
+				<div class="stat1">HP: <span id="health"></span></div> 
+				<div class="stat2">MP: <span id="mana"></span></div> 
+				<div class="stat2">AD: <span id="attack"></span></div> 
+				<div class="stat2">AR: <span id="armor"></span></div> 
+			</div>
+			
+			<div id="info"> 
+				<div class="half_info">
+					<div id="name" class="stat1">Name</div> 
+					<div id="place" class="stat2">City </div> 
+					<div id="weather" class="stat2">Windy/Cloudy </div> 
+					<div id="emotion" class="stat2">Character </div> 
+				</div>
+				
+				<div class="half_info">
+					<div id="gold" class="stat1">Gold</div> 
+					<div id="karma" class="stat2">Karma</div> 
+					<div id="" class="stat2">Score: <span id='score'>0</span></div>
+					<div id="" class="stat2">???</div> 
+				</div>
+			</div>
+			
+			<div id="moves"> 
+				<div id="but"><input type="Button" id="buut" value="Punch" onclick="punch(e.health)"></div>
+				<div id="but"><input type="Button" class="trigger_popup_fricc" id="buut" value="???" onclick=""></div>
+				<div id="but"><input type="Button" id="buut" value="???" onclick=""></div>
+				<div id="but"><input type="Button" id="buut" value="???" onclick=""></div>
+				<div id="but"><input type="Button" id="buut" value="???" onclick=""></div>
+				<div id="but"><input type="Button" id="buut" value="???" onclick=""></div>
+			</div>
+			
+			<div id="action_window">
+				<div id="action_content">
+					<div id="enemy_health" class="stat3">HP: 100</div>
+					<div id="enemy_mana" class="stat3">MP: 100</div>
+					<div id="enemy_attack" class="stat3">AD: 100</div>
+					<div id="enemy_armor" class="stat3">AR: 100</div>
+					
+					<div id="sight" class="avatar"><img class="sight" src="enemy.jpg" alt="Error"> </div>
+				</div>
+				<div id="text_container" class="text_container">Gardens<div id="action_text" class="action_text">Beware of hiding monsters<br>Here comes the first one<br></div> </div>
+			</div>
+
+			<div id="down_button_panel">
+			<div id="but"><input type="Button" value="Reset" onclick=location.reload()></div>
+			<div id="but"><input type="Button" value="Menu" onclick="window.location=('menu.html')"></div>
+			<div id="but"><input type="Button" value="Next" onclick="window.location=('game.html')"></div>
+			<div id="but"><input type="Button" value="Equipment" onclick="open_eq(); popup();"></div>
+			<div id="but"><input type="Button" value="Skills" onclick="open_skills()"></div>
+			<div id="but"><input type="Button" value="Spawn enemy" onclick="random_enemy()"></div>
+			<div id="but"><input type="Button" value="Popup" onclick="popup()"></div>
+			<div id="but"><input type="Button" value="Save" onclick=""></div>
+			<div id="but"><input type="Button" value="???" onclick=""></div>
+			<div id="but"><input type="Button" value="???" onclick=""></div>
+			</div>
+			
+
+			<div class="hover_bkgr_fricc">
+				<span class="helper"></span>
+				<div>
+					<div class="popupCloseButton">&times;</div>
+					<p id="item_stats" class="t_color">Stats of item</p>
+				</div>
+			</div>
+			
+			<div id="stopa"> Made by LiSimon All rights reserved </div>
+		</div>
+		</div>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="test.js"> </script>
+
+
+
+</html>
